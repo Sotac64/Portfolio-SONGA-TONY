@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOTAC - Projets</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <h1 class="logo">SOTAC</h1>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="./propos.html">À propos</a></li>
+                <li><a href="projets.html" class="active">Projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Mes Projets</h1>
+                <p>Découvrez une sélection de mes réalisations récentes</p>
+            </div>
+        </section>
+
+        <section class="projects-section">
+            <div class="container">
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">Tous</button>
+                    <button class="filter-btn" data-filter="web">Sites web</button>
+                    <button class="filter-btn" data-filter="app">Applications</button>
+                    <button class="filter-btn" data-filter="design">Design</button>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="./image/IMAGE(1).jpeg" alt="">
+                            <div class="project-overlay">
+                                <a href="#" class="btn-view">Voir le projet</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Gestion Répertoire Téléphonique</h3>
+                            <p>Un programme complet en langage C pour gérer un répertoire de contacts téléphoniques.
+            Permet d'ajouter, modifier, supprimer, rechercher et afficher les contacts.
+            Utilise des structures de données et des fichiers pour la persistance des données.</p>
+                            <div class="project-tags">
+                                <span>CodeBlooks</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="app">
+                        <div class="project-image">
+                            <img src="./image/image.png" alt="">
+                            <div class="project-overlay">
+                                <a href="#" class="btn-view">Voir le projet</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Poubelle Intelligente</h3>
+                            <p>Réalisation d'une poubelle intelligente avec Arduino intégrant
+                                détection de présence et ouverture automatique.</p>
+                            <div class="project-tags">
+                                <span>Arduino</span>
+                                <span>capteur ultrason</span>
+                                <span>servomoteur</span>
+                                <span>câbles de connexion</span>
+                                    <span>Breadboard</span>
+                                    <span>Arduino IDE</span>
+                                    <span>langage C/Arduino</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>SOTAC</h3>
+                <p>Créateur d'expériences digitales uniques.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="a-propos.html">À propos</a></li>
+                    <li><a href="projets.html">Projets</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>📧 songatony96@gmail.com</p>
+                <p>📱 +242066809581 & 221783867052</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SOTAC - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
